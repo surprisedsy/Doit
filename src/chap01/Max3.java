@@ -8,12 +8,12 @@ public class Max3 {
 	{
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.println("¼¼ Á¤¼öÀÇ ÃÖ´ñ°ªÀ» ±¸ÇÕ´Ï´Ù.");
-		System.out.println("aÀÇ  °ª : ");
+		System.out.println("ì„¸ ì •ìˆ˜ì˜ ìµœëŒ“ê°’ì„ êµ¬í•©ë‹ˆë‹¤.");
+		System.out.println("aì˜ ê°’ : ");
 		int a = stdIn.nextInt();
-		System.out.println("bÀÇ °ª : ");
+		System.out.println("bì˜ ê°’ : ");
 		int b = stdIn.nextInt();
-		System.out.println("cÀÇ °ª : ");
+		System.out.println("cì˜ ê°’ : ");
 		int c = stdIn.nextInt();
 		
 		int max = a;
@@ -23,7 +23,7 @@ public class Max3 {
 		if(c > max)
 			max = c;
 		
-		System.out.println("ÃÖ´ñ°ªÀº " + max + "ÀÔ´Ï´Ù.");
+		System.out.println("ìµœëŒ“ê°’ì€ " + max + "ì…ë‹ˆë‹¤.");
 	}
 	
 }

@@ -13,7 +13,7 @@ public class Question09 {
 		else
 			sum = (a + b) * (b / 2) + ((b+1)/2);
 		
-		System.out.println("a¿¡¼­ b±îÁöÀÇ ÇÕ°è´Â " + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("aê°’ê³¼ bê°’ì˜ í•©ì€ " + sum + "ì…ë‹ˆë‹¤.");
 		
 		return sum;
 	}
@@ -21,9 +21,9 @@ public class Question09 {
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("a°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("aê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		int a = sc.nextInt();
-		System.out.print("b°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("bê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		int b = sc.nextInt();
 		
 		sumof(a, b);

@@ -8,7 +8,7 @@ public class SumWhile {
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("1ºÎÅÍ n±îÁöÀÇ ÇÕÀ» ±¸ÇÕ´Ï´Ù.");
+		System.out.println("1ë¶€í„° nê¹Œì§€ì˜ í•©ì„ êµ¬í•©ë‹ˆë‹¤.");
 		System.out.println("n : ");
 		int n = sc.nextInt();
 		
@@ -21,8 +21,7 @@ public class SumWhile {
 			i++;
 		}
 		
-		System.out.println("º¯¼ö iÀÇ °ªÀº " + i + "ÀÌ°í i´Â " + n + " + 1 ÀÇ °ª ÀÔ´Ï´Ù.");
-		System.out.println("1ºÎÅÍ " + n + "±îÁöÀÇ ÇÕÀº " + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("1ë¶€í„° " + n + "ê¹Œì§€ì˜ í•©ì€ " + sum + "ì…ë‹ˆë‹¤.");
 		
 	}
 	

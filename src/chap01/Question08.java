@@ -8,7 +8,7 @@ public class Question08 {
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("nÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("nì˜ ê°’ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		int n = sc.nextInt();
 		int sum = 0;
 		

@@ -7,19 +7,19 @@ public class Question15 {
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);		
-		System.out.print("»ï°¢ÇüÀÇ ´Ü ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë‹¨ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		int n = sc.nextInt();
 		
-		System.out.println("¿ŞÂÊ ¾Æ·¡°¡ Á÷°¢ÀÎ ÀÌµîº¯ »ï°¢ÇüÀ» Ãâ·Â");
+		System.out.println("ì™¼ìª½ ì•„ë˜ê°€ ì§ê°ì¸ ì´ë“±ë³€ ì‚¼ê°í˜•ì„ ì¶œë ¥");
 		triangleLB(n);
 		
-		System.out.println("¿ŞÂÊ À§°¡ Á÷°¢ÀÎ ÀÌµîº¯ »ï°¢ÇüÀ» Ãâ·Â");
+		System.out.println("ì™¼ìª½ ìœ„ê°€ ì§ê°ì¸ ì´ë“±ë³€ ì‚¼ê°í˜•ì„ ì¶œë ¥");
 		triangleLU(n);
 		
-		System.out.println("¿À¸¥ÂÊ À§°¡ Á÷°¢ÀÎ ÀÌµîº¯ »ï°¢ÇüÀ» Ãâ·Â");
+		System.out.println("ì˜¤ë¥¸ìª½ ìœ„ê°€ ì§ê°ì¸ ì´ë“±ë³€ ì‚¼ê°í˜•ì„ ì¶œë ¥");
 		triangleRU(n);
 		
-		System.out.println("¿À¸¥ÂÊ ¾Æ·¡°¡ Á÷°¢ÀÎ ÀÌµîº¯ »ï°¢ÇüÀ» Ãâ·Â");
+		System.out.println("ì˜¤ë¥¸ìª½ ì•„ë˜ê°€ ì§ê°ì¸ ì´ë“±ë³€ ì‚¼ê°í˜•ì„ ì¶œë ¥");
 		triangleRB(n);
 	}
 

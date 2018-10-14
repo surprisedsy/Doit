@@ -7,7 +7,7 @@ public class Question10 {
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("aÀÇ °ª : ");
+		System.out.print("aì˜ ê°’ : ");
 		int a = sc.nextInt();
 		int b;
 		
@@ -15,19 +15,19 @@ public class Question10 {
 		
 		do {
 			
-			System.out.print("bÀÇ °ª : ");
+			System.out.print("bì˜ ê°’ : ");
 			b = sc.nextInt();
 			
 			if(b > a)
 				break;
 			
-			System.out.println("aº¸´Ù Å« °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä!");
+			System.out.println("aë³´ë‹¤ í° ê°’ì„ ì…ë ¥í•˜ì„¸ìš”!");
 						
 		}while(a>=b);
 		
 		result = (b - a);
 		
-		System.out.println("b-a´Â " + result + "ÀÔ´Ï´Ù.");
+		System.out.println("b-aëŠ” " + result + "ì…ë‹ˆë‹¤.");
 		
 	}
 	

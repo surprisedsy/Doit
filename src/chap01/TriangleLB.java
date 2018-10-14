@@ -9,11 +9,11 @@ public class TriangleLB {
 		Scanner sc = new Scanner(System.in);
 		int n;
 		
-		System.out.println("¿ŞÂÊ ¾Æ·¡°¡ Á÷°¢ÀÎ ÀÌµîº¯ »ï°¢ÇüÀ» Ãâ·ÂÇÕ´Ï´Ù.");
+		System.out.println("ì™¼ìª½ ì•„ë˜ê°€ ì§ê°ì¸ ì´ë“±ë³€ ì‚¼ê°í˜•ì„ ì¶œë ¥í•©ë‹ˆë‹¤.");
 		
 		do {
 			
-			System.out.println("¸î ´Ü »ï°¢Çü ÀÔ´Ï±î? : ");
+			System.out.println("ëª‡ ë‹¨ ì‚¼ê°í˜• ì…ë‹ˆê¹Œ? : ");
 			n = sc.nextInt();
 			
 		}while(n <= 0);

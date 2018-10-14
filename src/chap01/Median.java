@@ -25,15 +25,15 @@ public class Median {
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("¼¼ Á¤¼öÀÇ Áß¾Ó°ªÀ» ±¸ÇÕ´Ï´Ù.");
-		System.out.print("aÀÇ °ª : ");
+		System.out.println("ì„¸ ì •ìˆ˜ì˜ ì¤‘ì•™ê°’ì„ êµ¬í•©ë‹ˆë‹¤.");
+		System.out.print("aì˜ ê°’ : ");
 		int a = sc.nextInt();
-		System.out.print("bÀÇ °ª : ");
+		System.out.print("bì˜ ê°’ : ");
 		int b = sc.nextInt();
-		System.out.print("cÀÇ °ª : ");
+		System.out.print("cì˜ ê°’ : ");
 		int c = sc.nextInt();
 		
-		System.out.println("Áß¾Ó°ªÀº " + med3(a, b, c) + "ÀÔ´Ï´Ù.");
+		System.out.println("ì¤‘ì•™ê°’ì€ " + med3(a, b, c) + "ì…ë‹ˆë‹¤.");
 	}
 }
 

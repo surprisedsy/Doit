@@ -9,17 +9,17 @@ public class Digits {
 		Scanner sc = new Scanner(System.in);
 		int no;
 		
-		System.out.println("2ÀÚ¸® Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("2ìë¦¬ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		
 		do {
 			
-			System.out.print("ÀÔ·Â : ");
+			System.out.print("ï¿½Ô·ï¿½ : ");
 			no = sc.nextInt();
 			
 		}while(no < 10 || no > 99);
-		//while !(no >= 10 || no <= 99);	À§¿¡²¨¶û °°Àº ¶æ
+		//while !(no >= 10 || no <= 99);	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 		
-		System.out.println("º¯¼ö noÀÇ °ªÀº " + no + "°¡(ÀÌ) µÇ¾ú½À´Ï´Ù.");
+		System.out.println("ë³€ìˆ˜ noì˜ ê°’ì€ " + no + "ê°€(ì´) ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 	
 }

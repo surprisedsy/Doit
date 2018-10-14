@@ -8,8 +8,8 @@ public class SumFor {
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("1ºÎÅÍ n±îÁöÀÇ ÇÕÀ» ±¸ÇÕ´Ï´Ù.");
-		System.out.println("nÀÇ °ª : ");
+		System.out.println("1ë¶€í„° nê¹Œì§€ì˜ í•©ì„ êµ¬í•©ë‹ˆë‹¤.");
+		System.out.println("nì˜ ê°’ : ");
 		int n = sc.nextInt();
 		
 		int sum = 0;
@@ -19,7 +19,7 @@ public class SumFor {
 			sum += i;
 		}
 		
-		System.out.println("1ºÎÅÍ " + n + "±îÁöÀÇ ÇÕÀº " + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("1ë¶€í„° " + n + "ê¹Œì§€ì˜ í•©ì€ " + sum + "ì…ë‹ˆë‹¤.");
 	}
 	
 }

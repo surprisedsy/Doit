@@ -8,7 +8,7 @@ public class Question16 {
 	{
 		Scanner sc = new Scanner(System.in);
 		int n;
-		System.out.print("´Ü ¼ö : ");
+		System.out.print("ë‹¨ ìˆ˜ : ");
 		n = sc.nextInt();
 		
 		spira(n);
@@ -23,8 +23,11 @@ public class Question16 {
 				System.out.print(" ");
 			}
 			for(int j = 1; j <= (i-1)*2+1; j++)
-			{
-				System.out.print("*");
+			{	
+				if(j % 2 == 0)
+					System.out.print(" ");
+				else
+					System.out.print("*");
 			}
 			System.out.println("");
 		}

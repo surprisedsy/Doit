@@ -7,7 +7,7 @@ public class Question17 {
 	{
 		Scanner sc = new Scanner(System.in);
 		int n;
-		System.out.print("´Ü ¼ö : ");
+		System.out.print("ë‹¨ ìˆ˜ : ");
 		n = sc.nextInt();
 		
 		npira(n);

@@ -12,18 +12,18 @@ public class Question11 {
 				
 		do {
 			
-			System.out.print("aÀÇ °ª : ");
+			System.out.print("aê°’ ìž…ë ¥ : ");
 			a = sc.nextInt();
 			
 			if(a > 0)
 				break;
 			
-			System.out.println("¾ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+			System.out.println("ì–‘ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”.");
 			
 		}while(a<=0);
 				
 		result = (int)(Math.log10(a)+1);
 		
-		System.out.println("±× ¼ö´Â " + result + "ÀÚ¸®ÀÔ´Ï´Ù.");
+		System.out.println("ê·¸ ìˆ˜ëŠ” " + result + "ìžë¦¬ìž…ë‹ˆë‹¤.");
 	}
 }

@@ -8,13 +8,13 @@ public class JudgeSign {
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”. : ");
 		int n = sc.nextInt();
 		
 		if(n > 0)
-			System.out.println("¾ç¼ö");
+			System.out.println("ì–‘ìˆ˜");
 		else if(n < 0)
-			System.out.println("À½¼ö");
+			System.out.println("ìŒìˆ˜");
 		else
 			System.out.println("0");
 	}

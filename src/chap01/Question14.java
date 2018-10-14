@@ -6,10 +6,10 @@ public class Question14 {
 	
 	public static void main(String[] args)
 	{
-		System.out.println("»ç°¢ÇüÀ» Ãâ·ÂÇÕ´Ï´Ù.");
+		System.out.println("ì‚¬ê°í˜•ì„ ì¶œë ¥í•©ë‹ˆë‹¤.");
 		
 		Scanner sc = new Scanner(System.in);		
-		System.out.print("´Ü ¼ö : ");
+		System.out.print("ï¿½ï¿½ ï¿½ï¿½ : ");
 		int length = sc.nextInt();
 		
 		for(int i = 1; i <= length; i++ )

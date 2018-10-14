@@ -4,7 +4,7 @@ public class Multi99Table {
 	
 	public static void main(String[] args)
 	{
-		System.out.println("       ----- °ö¼ÀÇ¥ -----");
+		System.out.println("       ----- ê³±ì…ˆí‘œ -----");
 		
 		for(int i = 1; i <= 9; i++)
 		{
