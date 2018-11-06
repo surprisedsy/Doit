@@ -3,6 +3,8 @@ package chap02;
 import java.util.Scanner;
 
 public class Question11 {
+	
+	int q11_aaa;
 
 	static class YMD
 	{
@@ -20,20 +22,17 @@ public class Question11 {
 		
 		public YMD after(int n)
 		{
-			
-			
 			System.out.println(n + "일 뒤의 날짜를 반환 : " + (n+this.d) + "일");
 			
 			return this;
 		}
 		
-		public YMD before(int n)
+		static public YMD before(int n)
 		{
+			YMD A = new YMD(n,n,n);
+			System.out.println(n + "일 앞의 날짜를 반환 : " + (n) + "일");
 			
-			
-			System.out.println(n + "일 앞의 날짜를 반환 : " + (this.d-n) + "일");
-			
-			return this;
+			return A;
 		}
 	}
 	
@@ -47,14 +46,14 @@ public class Question11 {
 		int m = sc.nextInt();
 		System.out.print("일 : ");
 		int d = sc.nextInt();
-		
-		YMD ydm = new YMD(y, m, d);
+				
+		YMD ymd = new YMD(y, m, d);
 		System.out.println("");
 				
 		System.out.print("n : ");
 		int n = sc.nextInt();		
-		ydm.after(n);
-		ydm.before(n);
+		ymd.after(n);
+		ymd.before(n);
 	}
 }
 
